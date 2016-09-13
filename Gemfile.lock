@@ -1,3 +1,10 @@
+GIT
+  remote: https://github.com/octopress/hooks.git
+  revision: 9ec9efcbe8e2aa4d79d2a35543a29b51f3e6feb2
+  specs:
+    octopress-hooks (2.6.1)
+      jekyll (>= 2.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -107,6 +114,8 @@ GEM
       pkg-config (~> 1.1.7)
     octokit (4.3.0)
       sawyer (~> 0.7.0, >= 0.5.3)
+    octopress-paginate (1.1.2)
+      octopress-hooks
     pathutil (0.14.0)
       forwardable-extended (~> 2.6)
     pkg-config (1.1.7)
@@ -136,6 +145,8 @@ DEPENDENCIES
   github-pages
   jekyll (= 3.2.1)
   minima
+  octopress-hooks!
+  octopress-paginate
 
 RUBY VERSION
    ruby-2.3.1

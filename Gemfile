@@ -12,6 +12,7 @@ ruby RUBY_VERSION
 # Happy Jekylling!
 gem "jekyll", "3.2.1"
 
+
 # This is the default theme for new Jekyll sites. You may change this to anything you like.
 gem "minima"
 
@@ -23,3 +24,7 @@ gem "minima"
 # group :jekyll_plugins do
 #   gem "jekyll-github-metadata", "~> 1.0"
 # end
+group :jekyll_plugins do
+  gem 'octopress-hooks', git: 'https://github.com/octopress/hooks.git'
+  gem 'octopress-paginate'
+end
