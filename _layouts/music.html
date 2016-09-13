@@ -2,6 +2,7 @@
 layout: default
 
 ---
+
 <style>
 
     b{
@@ -84,7 +85,8 @@ layout: default
         color: firebrick;
         font-weight: bold;
     }
-    .spacing{
+    .spacing2{
+         font-family: Orbitron;
         position: relative;
         top: -20px;
     }
@@ -107,7 +109,7 @@ layout: default
         <span class="sharethis"> &nbsp;&nbsp;&nbsp;SHARE THIS: </span><a href="https://twitter.com/intent/tweet?url={{ site.url }}{{ page.url }}{% if page.excerpt %}&text={{ page.excerpt | url_escape }}{% else %}{{ page.title | url_escape }}{% endif %}{% if site.twitter %}&via={{ site.twitter }}{% endif %}" title="Share on Twitter"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
         <a href="https://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{ page.url }}{% if page.excerpt %}&t={{ page.excerpt | url_escape }}{% else %}{{ page.title | url_escape }}{% endif %}" title="Share on Facebook"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
         <a href="https://plus.google.com/share?url={{ site.url }}{{ page.url }}" title="Share on Google Plus"><i class="fa fa-google-plus-square" aria-hidden="true"></i></a>
-        <center><h1 class="spacing">{{ page.title }}</h1></center></div>
+        <center><h1 class="spacing2">{{ page.title }}</h1></center></div>
     
      
 <p class="info date" >{{ page.date | date: '%B %d, %Y' }}</p>
