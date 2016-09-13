@@ -1,6 +1,6 @@
 ---
-layout: default
-title: The Beat
+layout: buitm
+permalink: /BUITM/:path/Interviews
 ---
 
 <style>
@@ -33,19 +33,13 @@ title: The Beat
        </style>
 
 
-<div id="wrapper" class="clear">
+
     <div class="panel panel-default">
         <div class="panel-heading">
-           <div class="panel panel-default">
-                   <div class="container-fluid">
-               <div class="row">
-                 <img src="{{base}}/assets/Header.jpg" class="img-rounded img-responsive" width="100%">
-               </div>
-            </div>
-               </div>
+            <center><h1 class="title">Interviews</h1></center></div>
     </div>
     <div id="contain">
-  {% for post in site.TheBeat %}
+  {% for post in site.Interview | where: "tag", "buitm" %}
    
   <div class="col-sm-6 col-md-4">
     <div class="thumbnail">

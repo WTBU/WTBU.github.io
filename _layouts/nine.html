@@ -102,7 +102,7 @@ layout: default
         text-decoration: none !important;
         
     }
-    .breadcrumb li a:hover {
+    li a:hover {
         color: black !important;
         font-weight: bold;
         text-decoration: none !important;
@@ -114,7 +114,7 @@ layout: default
 <div id="wrapper" class="clear">
     <ol class="breadcrumb">
   <li><a href="/">Home</a></li>
-  <li><a href="/Interviews">Interviews</a></li>
+  <li><a href="/{{page.type}}">{% if page.type=="Music_Review" %} Music Review {% endif %} {% if page.type =="Interviews" %}Interviews {% endif %}</a></li>
   <li class="active">{{page.title}}</li>
 </ol>
     <div class="headerimage" style="background-image: url('{{ page.header_path}}')"></div>

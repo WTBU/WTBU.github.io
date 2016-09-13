@@ -30,11 +30,19 @@ gems:
 collections:
     MusicReviews:
         output: true
-        permalink: /Music/:path/
+        permalink: /Music_Reviews/:path/
         layout: music
     Interview:
         output: true
-        permalink: /Interview/:path/
+        permalink: /Interviews/:path/
         layout: interview
+    TopNine:
+        output: true
+        permalink: /Top/:path/
+        layout: nine
+    TheBeat:
+        output: true
+        permalink: /TheBeat/:path/
+        layout: beat
 
 
