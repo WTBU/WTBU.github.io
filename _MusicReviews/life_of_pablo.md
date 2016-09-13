@@ -1,13 +1,15 @@
 ---
 title: T.L.O.P — Kanye’s Magnum Opus
-image_path: "https://static.wixstatic.com/media/bf63a0_6a66f872d83b4851ae4a5514bb5db69a.jpg/v1/fill/w_600,h_600,al_c,lg_1,q_80/bf63a0_6a66f872d83b4851ae4a5514bb5db69a.jpg"
+date: 2008-12-16 00:00:00 Z
+image_path: https://static.wixstatic.com/media/bf63a0_6a66f872d83b4851ae4a5514bb5db69a.jpg/v1/fill/w_600,h_600,al_c,lg_1,q_80/bf63a0_6a66f872d83b4851ae4a5514bb5db69a.jpg
 header_path: http://www.themesltd.com/headers2/king_kanye.png
-excerpt: “The Life of Pablo,” Kanye West’s seventh studio album, provides insight deep into the mind of its creator. Loud, confusing, and at times almost stressful - Kanye West uses “The Life of Pablo” to show his fans that being at the top isn’t all its cracked up to be.
-date: 08-12-16
+excerpt: "“The Life of Pablo,” Kanye West’s seventh studio album, provides insight
+  deep into the mind of its creator. Loud, confusing, and at times almost stressful
+  - Kanye West uses “The Life of Pablo” to show his fans that being at the top isn’t
+  all its cracked up to be."
 layout: music
 author: Mary Jane
 ---
-
 
 “The Life of Pablo,” Kanye West’s seventh studio album, provides insight deep into the mind of its creator. Loud, confusing, and at times almost stressful - Kanye West uses “The Life of Pablo” to show his fans that being at the top isn’t all its cracked up to be.
 In the weeks leading up to the release of the album, West went though multiple title changes, track list revisions, and twitter rampages that both confused and riled up fans. By the time his sold out Madison Square Garden release party rolled around, the world was on its toes. Waiting for something that would top his previous studio album, “Yeezus,” when “The Life of Pablo” was released the world went flat on its heels.
