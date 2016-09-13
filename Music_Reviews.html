@@ -7,10 +7,13 @@ paginate:
 ---
 <style>
     
-    .thumbnail{        
+    .thumbnail{ 
+        border-color: #333333;
+        border-width: 2px;
+        border-style: solid;
     
-    background-color: black;
-         border-radius: 15px;
+    background-color: #333333;
+         border-radius: 5px;
 }
     p{
         color:whitesmoke;
@@ -26,21 +29,19 @@ paginate:
         letter-spacing: 2px;
     }
     .thumbimage{
-         border-radius: 15px;
+         border-radius: 5px;
     background-repeat: no-repeat;
         background-size: cover;
     width: 100%;
-    height: 200px;
+    height: 225px;
         position:relative;
         
     }
+    .btn-block{
+        font-family: Orbitron;
+    }
        </style>
 
-       <br>
-<br>
-      <br>
-<br>
-<div style="clear:both"></div>
 <div id="wrapper" class="clear">
     <div class="panel panel-default">
         <div class="panel-heading">
@@ -62,7 +63,7 @@ paginate:
           <a href="{{ post.url }}"><h3>{{ post.title | truncate: 25 }}</h3></a>
           </center>
         <p> {{ post.excerpt | truncate: 200 }}</p>
-        <p><a href="{{ post.url }}" class="btn btn-block btn-danger" role="button">See More</a> 
+        <p><a href="{{ post.url }}" class="btn btn-block btn-lg btn-danger" role="button">See More</a> 
       </div>
     </div>
   </div>
