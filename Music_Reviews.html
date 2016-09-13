@@ -1,12 +1,82 @@
 ---
 layout: default
 title: Music Reviews
+paginate: 
+  collection: MusicReviews
+  per_page: 1
 ---
-<ul>
-  {% for post in site.posts %}
-    <li><a href="{{ post.url }}">{{ post.title }}</a>
-        <br>
-      {{ post.excerpt }}
-    </li>
-  {% endfor %}
-</ul>
+<style>
+    
+    .thumbnail{        
+    
+    background-color: black;
+         border-radius: 15px;
+}
+    p{
+        color:whitesmoke;
+    }
+    h3{
+        color:firebrick;
+    }
+   
+   
+    
+    .title{
+        font-family: Orbitron;
+        letter-spacing: 2px;
+    }
+    .thumbimage{
+         border-radius: 15px;
+    background-repeat: no-repeat;
+        background-size: cover;
+    width: 100%;
+    height: 200px;
+        position:relative;
+        
+    }
+       </style>
+
+       <br>
+<br>
+      <br>
+<br>
+<div style="clear:both"></div>
+<div id="wrapper" class="clear">
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            <center><h1 class="title">Music Reviews</h1></center></div>
+    </div>
+    
+
+    
+    
+    
+    <div id="contain">
+  {% for post in site.MusicReviews reversed | sort: 'date'  %}
+        
+   
+  <div class="col-sm-6 col-md-4">
+    <div class="thumbnail">
+        <div class="thumbimage" style="background-image: url('{{ post.image_path}}')"></div>
+      <div class="caption"><center>
+          <a href="{{ post.url }}"><h3>{{ post.title | truncate: 25 }}</h3></a>
+          </center>
+        <p> {{ post.excerpt | truncate: 200 }}</p>
+        <p><a href="{{ post.url }}" class="btn btn-block btn-danger" role="button">See More</a> 
+      </div>
+    </div>
+  </div>
+      {% endfor %}
+        
+     
+        
+</div>
+   
+    <div style="clear:both"></div>
+    
+</div>
+<script>
+
+
+</script>
+
