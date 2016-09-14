@@ -7,6 +7,9 @@ collections:
     output: true
     permalink: "/Interviews/:path/"
     layout: interview
+Contact:
+    title: Contact Us
+    layout: interview
   MusicReviews:
     title: Music Reviews
     output: true

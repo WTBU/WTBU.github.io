@@ -4,6 +4,9 @@ layout: default
 ---
 
 <style>
+    *{
+        text-decoration: none;
+    }
     
     .thumbnail{        
     
@@ -16,20 +19,24 @@ layout: default
         color:firebrick;
     }
    
-   
+    .btn-lg{
+        font-family: Orbitron;
+    }
     
     .title{
         font-family: Orbitron;
         letter-spacing: 2px;
     }
     .thumbimage{
+    
     background-repeat: no-repeat;
-        background-size: cover;
+        background-size: 100% 100%;
     width: 100%;
-    height: 200px;
+    height: 250px;
         position:relative;
         
     }
+   
        </style>
 
 
@@ -44,16 +51,16 @@ layout: default
             </div>
                </div>
     </div>
+        <br>
     <div id="contain">
   {% for post in site.TheBeat %}
    
   <div class="col-sm-6 col-md-4">
     <div class="thumbnail">
-        <div class="thumbimage" style="background-image: url('{{ post.image_path}}')"></div>
+        <a class="hoverimage" href="{{ post.link }}"><div class="thumbimage" style="background-image: url('{{ post.image_path}}')"></div></a>
       <div class="caption"><center>
-          <a href="{{ post.link }}"><h3>{{ post.title }}</h3></a>
           </center>
-        <p><a href="{{ post.link }}" class="btn btn-block btn-danger" role="button">See More</a> 
+        <a href="{{ post.link }}" class="btn btn-lg btn-block btn-danger" role="button">{{ post.title }}</a> 
       </div>
     </div>
   </div>
