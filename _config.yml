@@ -17,6 +17,7 @@ collections:
     output: true
   TheBeat:
     title: The Beat
+    output: false
     permalink: "/TheBeat/:path/"
     layout: beat
   TopNine:
