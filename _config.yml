@@ -5,16 +5,26 @@ collections:
   Interview:
     title: Interview
     output: true
-    permalink: "/Interview/:path/"
+    permalink: "/Interviews/:path/"
     layout: interview
   MusicReviews:
     title: Music Reviews
     output: true
-    permalink: "/Music/:path/"
+    permalink: "/Music_Reviews/:path/"
     layout: music
   posts:
     title: Posts
     output: true
+  TheBeat:
+    title: The Beat
+    output: true
+    permalink: "/TheBeat/:path/"
+    layout: beat
+  TopNine:
+    title: Top Nine
+    output: true
+    permalink: "/Top/:path/"
+    layout: nine
   uploads:
     title: Uploads
     output: true
@@ -27,21 +37,3 @@ twitter_username: jekyllrb
 github_username: wtbu
 markdown: kramdown
 theme: minima
-
-collections:
-    MusicReviews:
-        output: true
-        permalink: /Music_Reviews/:path/
-        layout: music
-    Interview:
-        output: true
-        permalink: /Interviews/:path/
-        layout: interview
-    TopNine:
-        output: true
-        permalink: /Top/:path/
-        layout: nine
-    TheBeat:
-        output: true
-        permalink: /TheBeat/:path/
-        layout: beat
