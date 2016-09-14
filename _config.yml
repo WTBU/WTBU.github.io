@@ -27,9 +27,7 @@ twitter_username: jekyllrb
 github_username: wtbu
 markdown: kramdown
 theme: minima
-gems:
-<<<<<<< HEAD
-  - octopress-paginate
+
 collections:
     MusicReviews:
         output: true
@@ -47,8 +45,3 @@ collections:
         output: true
         permalink: /TheBeat/:path/
         layout: beat
-
-
-=======
-- octopress-paginate
->>>>>>> origin/master
