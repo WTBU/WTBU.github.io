@@ -73,6 +73,7 @@
                 </style>
               
               <ul class="nav navbar-nav navbar-right">
+                  <a  href="http://headphones.bu.edu/" type="button" class="btn btn-danger navbar-btn"> <i class="fa fa-lg fa-archive" aria-hidden="true"></i> &nbsp; Archives</a>&nbsp;&nbsp;&nbsp;&nbsp;
                 <div class="btn-group" role="group" aria-label="...">
                  <a  href="listen.m3u" type="button" class="btn btn-danger navbar-btn"> Listen Live</a>
                 
@@ -168,6 +169,42 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#383838', end
      <!--START SCRIPT -->  
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+       <script>
+       $(document).ready(function () {
+        $("#sports").hide();
+         setInterval(function refreshDarkSky() {
+         
+         var iframe = document.getElementById('spin-iframe');
+         iframe.src = iframe.src;
+         
+         }, 20000);
+         $('.carousel').carousel({
+         interval: 4500
+         })
+    
+ 
+        var audioElement = document.createElement('audio');
+       
+    
+
+      
+
+        $('.play').click(function() {
+            audioElement.setAttribute('src', 'http://wtbu.bu.edu:1800/listen');
+            audioElement.load();
+            audioElement.play();
+        });
+
+        $('.pause').click(function() {
+            audioElement.pause();
+        });
+    
+
+ 
+
+    });
+       
+       </script>
 
        
         <!--END SCRIPT -->  
