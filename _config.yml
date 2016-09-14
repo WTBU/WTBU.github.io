@@ -2,14 +2,14 @@
 title: WTBU Radio
 timezone: UTC
 collections:
+  Contact:
+    title: Contact Us
+    output: false
   Interview:
     title: Interview
     output: true
     permalink: "/Interviews/:path/"
     layout: interview
-  Contact:
-    title: Contact Us
-    output: false
   MusicReviews:
     title: Music Reviews
     output: true
