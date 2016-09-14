@@ -51,10 +51,9 @@ layout: default
     <div class="thumbnail">
         <div class="thumbimage" style="background-image: url('{{ post.image_path}}')"></div>
       <div class="caption"><center>
-          <a href="{{ post.url }}"><h3>{{ post.title }}</h3></a>
+          <a href="{{ post.link }}"><h3>{{ post.title }}</h3></a>
           </center>
-        <p> {{ post.excerpt }}</p>
-        <p><a href="{{ post.url }}" class="btn btn-block btn-danger" role="button">See More</a> 
+        <p><a href="{{ post.link }}" class="btn btn-block btn-danger" role="button">See More</a> 
       </div>
     </div>
   </div>
