@@ -9,6 +9,9 @@ layout: default
         font-family: Orbitron;
         letter-spacing: 2px;
     }
+    .media-object{
+        width: 180px;
+    }
        </style>
        
 <div id="wrapper" class="clear">
@@ -27,11 +30,14 @@ layout: default
 
   </div>
   <div class="media-body">
+      
     <h4 class="media-heading">{{ post.title }}</h4>
-   {{ post.content }}
       <a href="mailto:{{post.email}}">{{post.email}}</a>
+   {{ post.content }}
+      
   </div>
 </div>
+        <hr style='border-width:2px;border-color:firebrick;'>
           {% endfor %}
        </div>
    
