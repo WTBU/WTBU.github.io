@@ -3,7 +3,7 @@ title: General Manager
 date: 2016-09-14 03:30:00 Z
 name: Christie Leist
 email: gm@wtburadio.org
-image_path: https://scontent-atl3-1.xx.fbcdn.net/t31.0-8/1167331_10152727258303958_2635065986383545305_o.jpg
+image_path: https://static.wixstatic.com/media/bf63a0_a7e53d1ce4a5429ea551cbf4ee17ddf6.jpg/v1/fill/w_240,h_240,al_c,q_80,usm_0.66_1.00_0.01/bf63a0_a7e53d1ce4a5429ea551cbf4ee17ddf6.jpg
 ---
 
 Direct general inquiries to the General Manager. The General Manager oversees all WTBU departments and staff, as well as the WTBU budget.
