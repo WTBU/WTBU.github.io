@@ -27,5 +27,21 @@ twitter_username: jekyllrb
 github_username: wtbu
 markdown: kramdown
 theme: minima
-gems:
-- octopress-paginate
+
+collections:
+    MusicReviews:
+        output: true
+        permalink: /Music_Reviews/:path/
+        layout: music
+    Interview:
+        output: true
+        permalink: /Interviews/:path/
+        layout: interview
+    TopNine:
+        output: true
+        permalink: /Top/:path/
+        layout: nine
+    TheBeat:
+        output: true
+        permalink: /TheBeat/:path/
+        layout: beat

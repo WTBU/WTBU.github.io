@@ -95,14 +95,26 @@ layout: default
         position: relative;
         top: -8px;
     }
+    li a {
+        color: firebrick;
+        text-decoration: none !important;
+        
+    }
+    .breadcrumb li a:hover {
+        color: black !important;
+        font-weight: bold;
+        text-decoration: none !important;
+        
+    }
    
 </style>
-       <br>
-<br>
-      <br>
-<br>
-<div style="clear:both"></div>
+
 <div id="wrapper" class="clear">
+    <ol class="breadcrumb">
+  <li><a href="/">Home</a></li>
+  <li><a href="/Music_Reviews">Music Reviews</a></li>
+  <li class="active">{{page.title}}</li>
+</ol>
     <div class="headerimage" style="background-image: url('{{ page.header_path}}')"></div>
     <div class="social-share2">
         <span class="sharethis"> &nbsp;&nbsp;&nbsp;SHARE THIS: </span><a href="https://twitter.com/intent/tweet?url={{ site.url }}{{ page.url }}{% if page.excerpt %}&text={{ page.excerpt | url_escape }}{% else %}{{ page.title | url_escape }}{% endif %}{% if site.twitter %}&via={{ site.twitter }}{% endif %}" title="Share on Twitter"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
