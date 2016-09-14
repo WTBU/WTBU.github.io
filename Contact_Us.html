@@ -4,30 +4,7 @@ layout: default
 ---
 
 <style>
-    #mod{
-        position: relative;
-        top: -30px;
-        bottom: -1000px;
-       
- 
-      
-    }
-    #contain{
-        height: 3500px;
-        overflow: hidden;
-        margin-left: 0px;
-        position: relative;
-       
-       
-    }
-    #contain2{
-        height: 6800px;
-        overflow: hidden;
-        margin-left: 0px;
-        position: relative;
-       
-       
-    }
+   
     .title{
         font-family: Orbitron;
         letter-spacing: 2px;
@@ -37,23 +14,31 @@ layout: default
 <div id="wrapper" class="clear">
     <div class="panel panel-default">
         <div class="panel-heading">
-            <center><h1 class="title">Contact s</h1></center></div>
+            <center><h1 class="title">Contact Us</h1></center></div>
     </div>
     
-    <span class="hidden-sm hidden-xs">
+
     <div id="contain">
-        
-  <iframe   id="mod" frameborder="none"width="105%" height="3600px" scrolling="yes"src="https://www.google.com/search?q=http://wtbuweb.wixsite.com/mysite/contact-us&btnI=Im+Feeling+Lucky" crossorigin="anonymous">></iframe>
+        {% for post in site.Contact %}
+        <div class="media">
+  <div class="media-left">
+ 
+      <img class="media-object" src="{{ post.image_path}}" alt="{{ post.name }}">
+
+  </div>
+  <div class="media-body">
+    <h4 class="media-heading">{{ post.title }}</h4>
+   {{ post.description }}
+  </div>
+</div>
+          {% endfor %}
        </div>
    
-    </span>
+
     
-     <span class="visible-sm visible-xs">
-  
-    <div id="contain2">     
-  <iframe   id="mod" frameborder="none"width="105%" height="6600px" scrolling="no"src="http://wtbuweb.wix.com/mysite#!contact-us/tnbu0"></iframe>
-         </div>
-  
-    </span>
+
+    
+    
+    
     
        </div>
