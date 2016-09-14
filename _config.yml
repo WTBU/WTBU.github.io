@@ -35,7 +35,7 @@ email: wtbuweb@gmail.com
 description: |
   Student run radio station at Boston University
 baseurl: ''
-url: https://wtbu.github.io
+url: http://wtburadio.club/
 twitter_username: jekyllrb
 github_username: wtbu
 markdown: kramdown
