@@ -5,19 +5,23 @@ published: false
 image_path: IMAGE URL OF POST
 header_path: HEADER IMAGE URL OF POST
 excerpt: POST EXCERPT
-layout: interview
 author: Mary Jane
+layout: interview
 ---
 
-in METADAT ADD THESE LINES 
-title: TITLE OF POST
+in METADATA ADD THESE LINES 
 image_path: IMAGE URL OF POST
 header_path: HEADER IMAGE URL OF POST
 excerpt: POST EXCERPT
-date: YEAR-MONTH-DAY 08-12-16
-layout: interview
 author: Mary Jane
-published: false ---> make true when ready to publish post
+
+--------------------------
+At the right column:
+top right ---> make visible when ready to publish 
+date ---> set date of the post
+Advanced Options: 
+Layout-->interview
+
 
 
 CONTENT TEXT HERE 
