@@ -2,6 +2,7 @@
 title: TITLE OF POST
 date: 2008-12-16 00:00:00 Z
 published: false
+position: 0
 image_path: IMAGE URL OF POST
 header_path: HEADER IMAGE URL OF POST
 excerpt: POST EXCERPT
