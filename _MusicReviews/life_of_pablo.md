@@ -1,6 +1,7 @@
 ---
 title: T.L.O.P — Kanye’s Magnum Opus
 date: 2008-12-16 00:00:00 Z
+position: 1
 image_path: https://static.wixstatic.com/media/bf63a0_6a66f872d83b4851ae4a5514bb5db69a.jpg/v1/fill/w_600,h_600,al_c,lg_1,q_80/bf63a0_6a66f872d83b4851ae4a5514bb5db69a.jpg
 header_path: http://www.themesltd.com/headers2/king_kanye.png
 excerpt: "“The Life of Pablo,” Kanye West’s seventh studio album, provides insight

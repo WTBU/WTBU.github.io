@@ -15,7 +15,7 @@ layout: default
         width: 150px;
     }
        </style>
-       <div id="top"></div>
+      
 <div id="wrapper" class="clear">
     <div class="panel panel-default">
         <div class="panel-heading">
@@ -113,8 +113,7 @@ var pathArray = location.href.split( '#' );
    
            pathArray= pathArray[1];
             if(pathArray=="submit"){
-                alert("hey");
-                document.getElementById("top").innerHTML+= "<div class='alert alert-dismissible alert-success' role='alert'><span class='glyphicon glyphicon-check' aria-hidden='true'></span>Form Submitted!</div>"  
+                document.getElementById("top").innerHTML+= "<div class='alert alert-dismissible alert-success' role='alert'><span class='glyphicon glyphicon-check' aria-hidden='true'></span> <a href='#' class='close' data-dismiss='alert' aria-label='close'><i class='fa fa-times-circle' aria-hidden='true'></i></a> Form Submitted!</div>"  
             }
         
 

@@ -32,8 +32,9 @@ collections:
     title: Uploads
     output: true
 email: wtbuweb@gmail.com
-description: |
-  Student run radio station at Boston University
+description: 'Student run radio station at Boston University
+
+'
 baseurl: ''
 url: http://wtburadio.club/
 twitter_username: jekyllrb

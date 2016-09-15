@@ -2,23 +2,25 @@
 title: TITLE OF POST
 date: 2008-12-16 00:00:00 Z
 published: false
+position: 0
 image_path: IMAGE URL OF POST
 header_path: HEADER IMAGE URL OF POST
 excerpt: POST EXCERPT
-layout: music
 author: Mary Jane
+layout: music
 ---
 
-in METADATa ADD THESE LINES 
-title: TITLE OF POST
+in METADATA ADD THESE LINES 
 image_path: IMAGE URL OF POST
 header_path: HEADER IMAGE URL OF POST
 excerpt: POST EXCERPT
-date: YEAR-MONTH-DAY 08-12-16
-layout: music
 author: Mary Jane
-published: false ---> make true when ready to publish post
 
+--------------------------
+At the right column:
+top right ---> make visible when ready to publish 
+date ---> set date of the post
+Advanced Options: 
+Layout-->interview
 
-CONTENT TEXT HERE 
-CONTENT TEXT HERE 
+CONTEXT HERE
