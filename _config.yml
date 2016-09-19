@@ -36,7 +36,7 @@ description: 'Student run radio station at Boston University
 
 '
 baseurl: ''
-url: http://wtburadio.club/
+url: https://wtbu.github.io/
 twitter_username: jekyllrb
 github_username: wtbu
 markdown: kramdown
