@@ -10,6 +10,7 @@ excerpt: Upon entering The Middle East Downstairs on Sunday the 24th, I immediat
   to introduce myself in person as the WTBU promoter they had spoken with on the phone.
   I expected a handshake, but instead received two big hugs. This is just one example
   of how downright cool these guys are, both on and off the stage.
+layout: music
 ---
 
 Upon entering The Middle East Downstairs on Sunday the 24th, I immediately noticed OCD’s Moosh and Twist standing among a group of people by the entrance. Recognizing them from their music videos and online presence, I approached them to introduce myself in person as the WTBU promoter they had spoken with on the phone. I expected a handshake, but instead received two big hugs. This is just one example of how downright cool these guys are, both on and off the stage.
