@@ -108,6 +108,17 @@ layout: default
     }
    
 </style>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.7&appId=959848700776434";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+
+
 
 <div id="wrapper" class="clear">
     <ol class="breadcrumb">
@@ -141,5 +152,9 @@ layout: default
         <a href="https://plus.google.com/share?url={{ site.url }}{{ page.url }}" title="Share on Google Plus"><i class="fa fa-google-plus-square" aria-hidden="true"></i></a>
   
 </div>
+    
+    
+    <div class="fb-comments" data-href="https://wtbu.github.io/Music_Reviews/arctic-monkeys/" data-numposts="5"></div>
+    
     
 </div>
