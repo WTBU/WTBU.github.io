@@ -9,6 +9,7 @@ excerpt: I saw the Arctic Monkeys at the Paradise on September 17 and it was the
   until 9 pm. However, it was unsurprising that people waited hours just to be as
   close to the stage as possible.
 author: Ben Brondsky
+layout: music
 ---
 
 I saw the Arctic Monkeys at the Paradise on September 17 and it was the most crowded I’ve ever seen that place. The show had a forced will call (everyone had to bring ID to get their tickets) and doors were at 7 pm, but the music didn’t start until 9 pm. However, it was unsurprising that people waited hours just to be as close to the stage as possible. The Paradise is a great little club though; tickets are relatively cheap, it’s intimate, and the sound is really good.
